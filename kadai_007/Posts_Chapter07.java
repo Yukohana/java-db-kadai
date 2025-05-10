@@ -21,7 +21,7 @@ public class Posts_Chapter07 {
                 "hana1122"
             );
 
-            System.out.println("データベース接続成功");
+            System.out.println("データベース接続成功：" + con);
 
             // SQLクエリを準備
             Statement st = con.createStatement();
